@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px;
+    border: 2px solid red;
+    background-color: #333;
+    display: grid;
+    padding: 15px;
+    height: 50vh;
+    grid-template-columns: 50px auto 20%;
+    grid-template-rows: 80% 20%
+   
+}
+
+.container .div{
+    padding: 10px;
+    border: 2px solid green;
+    background-color: yellow;
+}
