@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px;
+    border: 2px solid red;
+    background-color: #333;
+    display: grid;
+    height: 100vh;
+    /* justify-content: center; */
+   
+   
+}
+
+.div{
+    padding: 10px;
+    border: 2px solid green;
+    background-color: yellow;
+}
+
+.header{
+    grid-column: 1/4;
+    justify-self: center ;
+    align-self: center;
+}
+
+.sidebar{ 
+    grid-row: 2/4;
+}
+.content{ 
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+
+.footer{
+    grid-column: 1/4;
+}
